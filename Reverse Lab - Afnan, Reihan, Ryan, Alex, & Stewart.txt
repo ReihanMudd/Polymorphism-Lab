@@ -1,0 +1,53 @@
+﻿Barbie - Reverse Lab
+
+
+Objective: You’ve been hired as the lead designer for creating Barbies of various styles! Using your knowledge of polymorphism, your job is to create 4 different Barbie designs, ranging from Basic Barbie to Disco Barbie. Here are the specifics on the details:
+
+
+1. Create a Barbie class called Barbie that has:
+   1. 4 private instance variables
+      1. A String called Name
+      2. A String called HairStyle
+      3. A String called Clothing
+      4. A String called Shoes
+   2. A constructor with parameters for Name, HairStyle, Clothing, Shoes
+      1. Initialize your private variables
+   3. Create getter and setter methods for each of the private variables
+   4. A toString() method that returns:
+      1. “Barbie “ + Name + “ has “ + HairStyle + “ hair and is wearing a “ + Clothing + “ with “ + Shoes + “ shoes.”
+2. Create another Barbie class called Beach_Barbie that extends the Barbie class and has:
+   1. 2 private instance variables
+      1. A String called Hat
+      2. A String called Sunglasses 
+   2. A constructor with parameters for Name, HairStyle, Clothing, Shoes, Hat, Sunglasses
+      1. Use super() to pass the parent variables to Barbie
+      2. Initialize your private variables
+   3. Create getter and setter methods for each of the private variables
+   4. Override the toString() method that now returns:
+      1. “Barbie “ + Name + “ has “ + HairStyle + “ hair and is wearing a “ + Hat + “ hat, a “ + Clothing + “, with “ + Shoes + “ shoes “ + “ and ” + Sunglasses + “ sunglasses.“
+3. Create another Barbie class called City_Barbie that extends the Barbie class and has:
+   1. 1 private instance variable:
+      1. A String called Job
+   2. Constructor that takes in name, HairStyle, Clothing, Shoes, Job
+      1. Use super() to pass the parent variables to Barbie
+      2. Initialize your private variables
+   3. Create getter and setter methods for each of the private variables
+   4. Override the toString() method that now returns:
+“Barbie “ + Name + “ has “ + HairStyle + “ hair and is wearing a ” + Clothing + “. She works as a “ + Job + “ in the city.”
+4. Create another Barbie class called My_Barbie that extends the Barbie class and has:
+   1. 2 private instance variable:
+      1. Your own choices
+   2. Constructor that takes in name, HairStyle, Clothing, Shoes, Job, and 2 variables you want to pass in 
+      1. Use super() to pass the parent variables to Barbie
+      2. Initialize your private variables
+   3. Create getter and setter methods for each of the private variables
+   4. Override the toString() method that  returns whatever you want
+5. In your main class:
+   1. Create a basic Barbie object (you pick the name of the obj) and pass in these parameters;
+      1. “Rachel”, “straight blonde”, “pink dress”, “high heeled” 
+   2. Create a Beach_Barbie object (you pick the name of the obj) and pass in these parameters:
+      1. “Mariposa”,  “curly blonde”, “pink bathing suit”, “sandal”, “bucket”, “Gucci”
+   3. Create  a City_Barbie object (you pick the name of the obj) and pass in these parameters: 
+      1.  “Midge”,  “wavy brunette”, “checkered pink suit”, “dress”, “fashion designer”
+   4. Create  a My_Barbie (you pick the name of the obj) object and pass in whatever parameters you like
+   5. Print out each of the objects listed above
